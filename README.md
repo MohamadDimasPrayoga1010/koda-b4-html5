@@ -4,3 +4,8 @@ Form menggunakan HTML murni tanpa menggunakan css. Form ini berisi beberapa inpu
 
 # Hasil
 ![form](assets/form.png)
+
+# Tabel 
+Untuk menampilkan hasil survei responden mengenai data pribadi dan kebiasaan merokok. 
+
+![table](assets/tabel.png)
