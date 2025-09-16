@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- form>div*5 -->
+    <form action="">
+      <div>
+        <!-- label[for=]{Siapa nama anda?}+br+input:text-->
+        <label for="nama">Siapa nama anda?</label><br />
+        <input type="text" name="" id="nama" />
+      </div>
+      <div>
+        <!-- label[for=]{Berapa umur anda?}+br+input:text -->
+        <label for="umur">Berapa umur anda?</label><br>
+        <input type="text" name="" id="umur">
+      </div>
+      <div>
+        <!-- label[for=kelamin]{Jenis kelamin anda?}+br>input:radio[name=kelamin id=laki]+label[for=laki]{Laki-laki}+input:radio[name=kelamin id=perempuan]+label[for=perempuan]{Perempuan} -->
+
+        <label for="kelamin">Jenis kelamin anda?</label><br>
+        <input type="radio" name="kelamin" id="laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" name="kelamin" id="perempuan">
+        <label for="perempuan">Perempuan</label></br>
+
+      </div>
+      <div>
+        <!-- label[for=perokok]{Apakah anda perokok}+br>input:radio[name=perokok id=ya]+label[for=ya]{Ya}+input:radio[name=perokok id=tidak]+label[for=tidak]{Tidak} -->
+        <label for="perokok">Apakah anda perokok</label><br>
+        <input type="radio" name="perokok" id="ya">
+        <label for="ya">Ya</label>
+        <input type="radio" name="perokok" id="tidak">
+        <label for="tidak">Tidak</label></br>
+      </div>
+      <div>
+         <!-- label{Jika anda perokok, rokok apa yang anda pernah coba?}+br>input:checkbox+label{Gudang Garam Filter}+br>input:checkbox+label{Lucky Strike}+br>input:checkbox+label{Marlboro}+br>input:checkbox+label{Esse} -->
+        <label for="">Jika anda perokok, rokok apa yang anda pernah coba?</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Gudang Garam Filter</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Lucky Strike</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Marlboro</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Esse</label>
+      </div>
+    </form>
+  </body>
+</html>
