@@ -1,5 +1,5 @@
 # Membuat Form HTML menggunakan emmet
-Form menggunakan HTML murni tanpa menggunakan css. Form ini berisi beberapa input: teks, radio button, dan checkbox.
+Form menggunakan HTML murni tanpa menggunakan css. Form ini berisi beberapa input: teks,submit, reset, radio button, dan checkbox.
 
 
 # Hasil
